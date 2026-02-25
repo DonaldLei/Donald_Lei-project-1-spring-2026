@@ -113,7 +113,6 @@ class Points2D {
         return size_;
     }
 
-    
     // @location: an index to a location in the sequence.
     // @returns the point at @location.
     // const version.
@@ -209,6 +208,7 @@ class Points2D {
             some_points.sequence_[i][1] = yCoordinate;
         } 
 
+        std::cout << std::endl;
         return in;
     }
 
